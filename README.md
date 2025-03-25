@@ -1,95 +1,119 @@
-# ✈️ Northern Aero Loyalty Program Optimization – Marketing Analytics Case Study
+# ✈️ Northern Aero Loyalty Program Optimization – Advanced Marketing Analytics Case Study
 
-**Created by:** Mahima Advilkar  
+**Author:** Mahima Advilkar  
 **Role:** Marketing Analytics Consultant  
-**Domain:** Airline Loyalty Strategy | CLV Optimization | Customer Segmentation  
-**Tools Used:** Excel, Tableau, Enginius CLV Model, Business Strategy
+**Domain:** Airline Loyalty Strategy | Customer Lifetime Value (CLV) | ROI Optimization  
+**Tools & Techniques:** Excel, Tableau, CLV Modeling, Segmentation, Transition Matrix Analysis
 
 ---
 
-## 📌 Project Overview
+## 📌 Executive Summary
 
-This project analyzes and optimizes the Frequent Flyer Loyalty Program of **Northern Aero**, a major Scandinavian airline. Using Customer Lifetime Value (CLV) modeling and marketing segmentation strategy, we evaluate the ROI of their loyalty program and develop actionable recommendations for maximizing program effectiveness and profitability.
+This project is a comprehensive marketing analytics case study on **Northern Aero**, a Scandinavian airline looking to reassess and improve the ROI of its Frequent Flyer Loyalty Program. By applying **Customer Lifetime Value (CLV)** models and **transition matrix simulations**, the project identifies key value segments, quantifies long-term program returns, and develops a **data-driven investment strategy** to improve retention and reduce inefficiencies in loyalty spending.
 
----
-
-## 🎯 Objectives
-
-- Calculate Customer Lifetime Value (CLV) by segment  
-- Simulate scenarios with/without loyalty program  
-- Optimize loyalty program spending using the ZENITH strategy  
-- Evaluate strategic investments for long-term customer retention
+It combines advanced quantitative modeling with marketing strategy to answer one fundamental question:  
+**“Is Northern Aero’s loyalty program worth the investment—and if so, how can it be optimized?”**
 
 ---
 
-## 📊 Data Overview
+## 🎯 Project Goals
 
-- **Total Members**: 58,000  
-- **Segments**: Platinum, Gold, Silver, Inactive, Lost  
-- **Data Points**:
-  - Transition probabilities  
-  - Yield per segment  
-  - Loyalty program cost per customer  
-  - Gross margin contributions  
-  - Discount rate modeling  
+- Evaluate total **economic value** of customer segments using CLV
+- Simulate program value under **15% and 40% discount rates**
+- Quantify incremental value contributed by the loyalty program
+- Design a **targeted spend strategy** using segment-based ROI modeling
+- Recommend actionable steps for maximizing long-term customer retention
 
 ---
 
-## 🧮 Key Analysis
+## 📊 Data Structure & Segmentation
 
-### ✅ CLV Modeling at 15% Discount Rate
+- **Total Customers**: 58,000 Frequent Flyer members
+- **Segments**: Platinum, Gold, Silver, Inactive, Lost
+- **Sub-segments**: Top 20% and Bottom 80% of customers (by revenue contribution)
 
-> Platinum Top 20% CLV ≈ $3,495  
-> Total Program Value (with Loyalty): $14.2M  
-> Value without Loyalty Program: $8.5M  
-> ➕ Net Gain: $5.7M  
+### Key Variables Used:
+| Feature                  | Description |
+|--------------------------|-------------|
+| Transition Probabilities | Likelihood of movement between segments |
+| Yield                    | Passenger revenue per mile |
+| Loyalty Cost             | Program cost per customer per year |
+| Margin                   | Gross margin per customer |
+| Discount Rate            | Applied to future earnings (15% and 40%) |
 
+---
+
+## 🧮 Analytical Approach
+
+### 1. **CLV Calculation**
+
+CLV was computed across all segments using two approaches:
+- **15% Discount Rate** (Industry Standard)
+- **40% Discount Rate** (Short-Term Tactical View)
+
+📌 Top-performing segments like **Platinum Top 20%** had a CLV > \$3,400  
+📉 Lower-value customers (Silver 80%, Inactive) had CLVs < \$200
+
+---
+
+### 2. **Scenario Simulation – With vs. Without Loyalty Program**
+
+To assess true impact, we simulated:
+- CLV under current program investment
+- CLV assuming **no loyalty program costs**
+
+**Results**:
+- Total program value (with loyalty): **\$14.2 million**
+- Value without program: **\$8.5 million**
+- Net gain: **\$5.7 million**  
+✅ The loyalty program drives a **67% uplift** in customer lifetime value
+
+---
+
+### 3. **ZENITH Optimization Strategy**
+
+To reduce waste and boost ROI, we proposed:
+- ✅ **Double down on Top 20% in Platinum and Gold**
+- ✅ **Minimal spend on Silver Top 20%**
+- ❌ **No investment in Lost and Inactive**
+- ✅ Reallocate to high-yield segments while keeping budget nearly flat  
+  *(Old: \$661K → New: \$703K)*
+
+---
+
+## 📈 Key Visuals
+
+### CLV by Segment (15% Discount)
 ![CLV by Segment](visuals/slide_2.png)
 
----
+### ROI – With vs Without Loyalty Program
+![Program ROI Impact](visuals/slide_3.png)
 
-### ✅ CLV Modeling at 40% Discount Rate
-
-> Recalculating for short-term performance  
-> Value drops to ~$8.9M  
-> Yet, Top Tier customers still preserve high ROI
+### Optimized Strategy ROI
+![Optimized Strategy Impact](visuals/slide_4.png)
 
 ---
 
-### 📈 Comparing Loyalty vs No Loyalty Program
+## 💡 Strategic Recommendations
 
-> Value Without Program = $8.5M  
-> Value With Program = $14.2M  
-> ROI justifies investment in key segments
-
-![Program Impact](visuals/slide_3.png)
-
----
-
-## 🛠 ZENITH Strategy Optimization
-
-We restructured loyalty spending by:
-- Doubling investment in **Top 20% Platinum and Gold**
-- Reducing/eliminating spend on **Low-value Silver & Inactive**
-- Reallocating Silver segment spend
-- Keeping budget nearly constant: $703K vs $661K
-
-### 📉 Optimized Strategy ROI
-![Optimized Strategy](visuals/slide_4.png)
+| Category             | Recommendation |
+|----------------------|----------------|
+| 🎯 Budget Allocation | Invest selectively in Top 20% of value segments |
+| 🧪 A/B Testing       | Pilot strategy in one region to validate uplift |
+| 🧠 Behavioral Triggers | Analyze inactivity patterns to prevent drop-offs |
+| 📊 Tracking KPIs     | Monitor segment migration and ROI quarterly |
+| 🧭 Experience Design | Reward upward mobility between tiers |
 
 ---
 
-## 💡 Final Recommendations
+## 💼 Business Impact
 
-| Focus Area          | Action Plan |
-|---------------------|-------------|
-| 🎯 Budget Allocation | Prioritize high-CLV segments (Platinum & Gold) |
-| 🔁 Retention Tactics | Re-engage Silver/Inactive with minimal cost |
-| 📈 Program Evaluation | Run quarterly transition matrix updates |
-| 🚀 ROI Optimization | Focus spend where customer lifetime value justifies it |
-| 🧪 Pilot Testing | Run A/B tests to validate the proposed spend model |
+- Improved loyalty program ROI through **targeted reinvestment**
+- Avoided overspending on low-CLV segments without return
+- Empowered stakeholder teams with **data-driven strategy**
+- Offered a scalable model for **airline and hospitality** use cases
 
 ---
 
-## 📁 Repository Structure
+## 🛠 Folder Structure
 
