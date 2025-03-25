@@ -84,6 +84,7 @@ To reduce waste and boost ROI, we proposed:
 ## 📈 Key Visuals
 
 ### CLV by Segment (15% Discount)
+![CLV by Segment](
 ![CLV by Segment](visuals/slide_2.png)
 
 ### ROI – With vs Without Loyalty Program
