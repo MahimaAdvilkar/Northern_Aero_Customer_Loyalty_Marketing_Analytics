@@ -29,8 +29,11 @@ It combines advanced quantitative modeling with marketing strategy to answer one
 ## 📊 Data Structure & Segmentation
 
 - **Total Customers**: 58,000 Frequent Flyer members
+![Frequent Flyer Program](Images/Frequent_Flyer_Proggram.png)
+
 - **Segments**: Platinum, Gold, Silver, Inactive, Lost
 - **Sub-segments**: Top 20% and Bottom 80% of customers (by revenue contribution)
+![Customer Segment Evolution](Images/CUSTOMER_SEGMENT.png)
 
 ### Key Variables Used:
 | Feature                  | Description |
@@ -43,7 +46,7 @@ It combines advanced quantitative modeling with marketing strategy to answer one
 
 ---
 
-## 🧮 Analytical Approach
+## 🧮 Analytical Approach and ## 📈 Key Visuals
 
 ### 1. **CLV Calculation**
 
@@ -54,13 +57,36 @@ CLV was computed across all segments using two approaches:
 📌 Top-performing segments like **Platinum Top 20%** had a CLV > \$3,400  
 📉 Lower-value customers (Silver 80%, Inactive) had CLVs < \$200
 
----
+![Lifetime Value of Each Customer](Images/LTV_CUSTOMERS.png)
 
-### 2. **Scenario Simulation – With vs. Without Loyalty Program**
+![Customer Base Valuation](Images/CUSTOMER_BASE_VALUATION.png)
+
+---
+### 2. - Question 2: Loyalty Program Analysis 40% Discount Rate (Short-Term Tactical View)
+
+![Loyalty Program with 40% Discount Category](Images/CLV_BASIS_SEGMENT.png)
+
+![Loyalty Program with 40% Discount Segment absorbing state](Images/CLV_DATABASE_VALUE.png)
+
+![Loyalty Program with 40% Discount Pricing](Images/CLV_VALUE.png)
+
+### 3. - Question 3: What is the return on investment of the loyalty program?
 
 To assess true impact, we simulated:
 - CLV under current program investment
+
+  ![CLV under Current Program](Images/Impact_of_Loyalty_Program.png)
+  
 - CLV assuming **no loyalty program costs**
+
+ ![Customer Retention Improved](Images/customer_retention.png)
+  
+
+### **Scenario Simulation – With vs. Without Loyalty Program**
+
+ ![CLV With vs. Without](Images/CLV_VS_NO_CLV.png)
+
+  
 
 **Results**:
 - Total program value (with loyalty): **\$14.2 million**
@@ -70,7 +96,7 @@ To assess true impact, we simulated:
 
 ---
 
-### 3. **ZENITH Optimization Strategy**
+### 4. - Question 3 **ZENITH Optimization Strategy**
 
 To reduce waste and boost ROI, we proposed:
 - ✅ **Double down on Top 20% in Platinum and Gold**
@@ -79,19 +105,7 @@ To reduce waste and boost ROI, we proposed:
 - ✅ Reallocate to high-yield segments while keeping budget nearly flat  
   *(Old: \$661K → New: \$703K)*
 
----
-
-## 📈 Key Visuals
-
-### CLV by Segment (15% Discount)
-![CLV by Segment](
-![CLV by Segment](visuals/slide_2.png)
-
-### ROI – With vs Without Loyalty Program
-![Program ROI Impact](visuals/slide_3.png)
-
-### Optimized Strategy ROI
-![Optimized Strategy Impact](visuals/slide_4.png)
+![Optimization Strategy](Images/Recommendations.png)
 
 ---
 
